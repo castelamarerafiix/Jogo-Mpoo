@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 import javax.imageio.ImageIO;
-
+// isso aqui tem que aparecer no app quando eu salvar
 public class Camada{
 	private int mapa[][];
 	private BufferedImage camada;

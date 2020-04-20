@@ -23,7 +23,7 @@ public class Camada{
 	private int tileHeight;
 	ArrayList<Rectangle> rectsColisao;
 	private boolean camadaColisao;
-
+	// alteração 1
 	public Camada(int mapaWidth, int mapaHeight, int tileWidth, int tileHeight, String img, String arquivo) throws IOException {
 		this.mapaWidth=mapaWidth;
 		this.mapaHeight=mapaHeight;

@@ -2,12 +2,9 @@ package model;
 
 import java.awt.Image;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 
 import javax.imageio.ImageIO;
-//alteração 2
-//alteração 3
 public class Sprite {
 	
 	private int posX, posY;

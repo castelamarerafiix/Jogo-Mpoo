@@ -12,7 +12,6 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 
 import javax.imageio.ImageIO;
-// isso aqui tem que aparecer no app quando eu salvar
 public class Camada{
 	private int mapa[][];
 	private BufferedImage camada;
@@ -23,7 +22,7 @@ public class Camada{
 	private int tileHeight;
 	ArrayList<Rectangle> rectsColisao;
 	private boolean camadaColisao;
-	// alteração 1
+
 	public Camada(int mapaWidth, int mapaHeight, int tileWidth, int tileHeight, String img, String arquivo) throws IOException {
 		this.mapaWidth=mapaWidth;
 		this.mapaHeight=mapaHeight;
